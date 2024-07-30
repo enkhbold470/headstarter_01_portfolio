@@ -3,13 +3,13 @@ export default function Navbar() {
     <nav className="flex justify-center items-center py-4  ">
       <div className="flex gap-5">
         <a
-          href="https://enkhbold470.github.io/headstarter_01_portfolio/"
+          href="/"
           className="text-lg text-primary no-underline hover:underline"
         >
           About
         </a>
         <a
-          href="https://enkhbold470.github.io/headstarter_01_portfolio/projects"
+          href="/projects"
           className="text-lg text-primary no-underline hover:underline"
         >
           Projects
