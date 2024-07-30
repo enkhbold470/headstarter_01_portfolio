@@ -4,8 +4,28 @@ import { useState, useEffect } from "react";
 const SPACE_ID = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
 const ACCESS_TOKEN = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
 
+interface Sys {
+  id: string;
+  updatedAt: string;
+}
+
+interface Fields {
+  title: string;
+  shortDescription: string;
+  viewDetails: string;
+}
+
+interface Item {
+  sys: Sys;
+  fields: Fields;
+}
+
+interface Data {
+  items: Item[];
+}
+
 export default function Projects() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<Data | null>(null);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
