@@ -3,13 +3,13 @@ export default function Footer() {
     <footer className="flex justify-center gap-4 items-center py-2 m-0 bg-gray-200">
       <div className="flex gap-5">
         <a
-          href="/headstarter_01_portfolio/"
+          href="https://enkhbold470.github.io/headstarter_01_portfolio/"
           className="text-sm text-primary no-underline hover:underline"
         >
           About
         </a>
         <a
-          href="/headstarter_01_portfolio/projects"
+          href="https://enkhbold470.github.io/headstarter_01_portfolio/projects"
           className="text-sm text-primary no-underline hover:underline"
         >
           Projects
@@ -30,7 +30,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="/headstarter_01_portfolio/license"
+          href="https://enkhbold470.github.io/headstarter_01_portfolio/license"
           className="text-sm text-primary "
         >
           © MIT License{" "}
