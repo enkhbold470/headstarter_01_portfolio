@@ -9,7 +9,7 @@ export default function Hero() {
       />
 
       <div className="flex flex-col items-center gap-1 lg:w-1/3 md:1/2 w-[70%]">
-        <h1 className="text-4xl font-extrabold text-primary pt-10">
+        <h1 className="text-3xl lg:text-4xl font-extrabold text-primary pt-10">
           Enkhbold Ganbold
         </h1>
         <h1 className="text-base lg:text-xl font-thin text-primary">
